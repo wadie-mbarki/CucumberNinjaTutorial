@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 112.439 s <<< FAILURE! - in runner.TestRunner
+Login with valid credentials(Login functionnality)  Time elapsed: 10.188 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login with valid mail and invalid password(Login functionnality)  Time elapsed: 8.285 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login with invalid mail and valid password(Login functionnality)  Time elapsed: 8.256 s  <<< ERROR!
+java.lang.NullPointerException
+
